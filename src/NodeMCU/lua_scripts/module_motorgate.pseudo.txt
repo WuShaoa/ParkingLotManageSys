@@ -1,0 +1,89 @@
+/*
+* 闸机控制模块伪代码
+* author: Kevin Huang
+* time: 2022-3-5 00:16
+*/
+module motorgate
+
+enum state_table = {
+    OPEN,
+    CLOSE,
+    CONSTANT_OPEN,
+    CONSTANT_CLOSE
+}
+
+let state = CLOSE 
+let total_rotate = 0
+let delta_rotate = 2000
+
+func stepmove(step){
+    socket.connect(string.format("dragonnode.local/welcome?step=%d", step), 80)
+    total_rotate += step //for recording
+}
+
+func opengate(){
+    switch state{
+    case CLOSE:
+        stepmove(delta_rotate)
+        return true
+        berak
+    case OPEN: case CONSTANT_OPEN:
+        error("gate is already open")
+        berak
+    CONSTANT_CLOSE:
+        error("blocked gate")
+        berak
+    default:
+        error("unknown state")
+        berak
+    }
+    return false
+}
+
+func closegate(){    
+    switch state{
+    case CLOSE:
+        error("gate is already closed")
+        berak
+    case OPEN:
+        stepmove(-delta_rotate)
+        return true
+        berak
+    CONSTANT_CLOSE: case CONSTANT_OPEN:
+        error("blocked gate")
+        berak
+    default:
+        error("unknown state")
+        berak
+    }
+    return false
+}
+
+func autogate(){
+    let ret = false
+    ret = opengate()
+    ret = closegate()
+    return ret
+}
+
+func constant_close_enable(on){
+    if on {
+        state = CONSTANT_CLOSE
+        if total_rotate != 0 stepmove(-total_rotate)
+    }
+    else {
+        if total_rotate != 0 stepmove(-total_rotate)
+        state = CLOSE 
+    }
+}
+
+func constant_open_enable(on){
+    if on {
+        state = CONSTANT_OPEN
+        if total_rotate == 0 stepmove(delta_rotate)
+    }
+    else { 
+        if total_rotate != 0 stepmove(-total_rotate)
+        state = CLOSE
+    }
+}

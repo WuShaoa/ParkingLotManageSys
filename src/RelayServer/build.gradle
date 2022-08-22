@@ -1,0 +1,73 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.0'
+    id 'org.springframework.boot' version '2.5.6'
+}
+
+ext {
+    libraries = {
+       [ rxjava  : '2.2.2',
+        spring_boot : '2.5.6'
+       ]
+    }
+}
+def libs = rootProject.ext.libraries
+springBoot {
+    //设置启动类
+    mainClassName = "com.ipark.ApplicationKT"
+
+}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    runtimeOnly 'org.jetbrains.kotlin:kotlin-reflect:1.6.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.6'
+    implementation 'org.springframework.boot:spring-boot-starter-websocket:2.5.6'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.0'
+
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc:2.5.6'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.aliyun:aliyun-java-sdk-core:4.5.14'
+    implementation 'com.alibaba:fastjson:1.2.74'
+    implementation 'com.aliyun:ocr20191230:1.0.14'
+    implementation 'com.aliyun:facebody20191230:2.0.1'
+    implementation 'com.aliyun:imageseg20191230:1.0.0'
+    implementation 'com.aliyun:imagerecog20190930:1.0.5'
+    implementation 'com.aliyun:imageenhan20190930:1.0.3:'
+    implementation 'com.aliyun:goodstech20191230:0.0.3'
+    implementation 'com.aliyun:objectdet20191230:2.0.9'
+    implementation 'com.aliyun:imgsearch20200320:1.0.0'
+    //implementation 'com.aliyun:videoseg20200320:1.0.1'
+    implementation 'com.aliyun:videoenhan20200320:1.0.2'
+    implementation 'org.springframework:spring-beans:5.3.1'
+    implementation 'org.springframework:spring-core:5.3.1'
+    implementation 'org.springframework:spring-jdbc:5.3.1'
+    implementation 'org.springframework:spring-tx:5.3.1'
+    implementation 'commons-logging:commons-logging:1.2'
+    implementation 'mysql:mysql-connector-java:8.0.17'
+
+
+    implementation "org.jetbrains.kotlin:kotlin-noarg"
+    implementation ("org.jetbrains.kotlin:kotlin-allopen")
+
+
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    compile fileTree(dir: 'lib',include:['*jar'])
+}
+
+test {
+    useJUnitPlatform()
+}

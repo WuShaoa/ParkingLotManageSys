@@ -1,0 +1,4 @@
+文件>首选项>附加开发板地址 https://dl.espressif.com/dl/package_esp32_index.json
+工具>开发板>开发板管理器 esp32
+工具>开发板 AI Thinker ESP32 CAM 240(WIFI/BT) x 80 MHz DIO
+文件>示例>ESP32>Camera

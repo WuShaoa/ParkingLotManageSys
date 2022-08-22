@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-15T06:19:35.028079900Z</date>
+  <millis>1650003575028</millis>
+  <nanos>79900</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>LAFcom.sun.java.swing.plaf.windows.WindowsLookAndFeel</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.035073800Z</date>
+  <millis>1650003575035</millis>
+  <nanos>73800</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>LAFcom.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.041070300Z</date>
+  <millis>1650003575041</millis>
+  <nanos>70300</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>LAFcom.sun.java.swing.plaf.motif.MotifLookAndFeel</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.042555600Z</date>
+  <millis>1650003575042</millis>
+  <nanos>555600</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>LAFjavax.swing.plaf.nimbus.NimbusLookAndFeel</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.044072900Z</date>
+  <millis>1650003575044</millis>
+  <nanos>72900</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>LAFjavax.swing.plaf.metal.MetalLookAndFeel</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.465461400Z</date>
+  <millis>1650003575465</millis>
+  <nanos>461400</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.475462700Z</date>
+  <millis>1650003575475</millis>
+  <nanos>462700</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.481460600Z</date>
+  <millis>1650003575481</millis>
+  <nanos>460600</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.730430Z</date>
+  <millis>1650003575730</millis>
+  <nanos>430000</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.733659900Z</date>
+  <millis>1650003575733</millis>
+  <nanos>659900</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.736431800Z</date>
+  <millis>1650003575736</millis>
+  <nanos>431800</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:35.740429900Z</date>
+  <millis>1650003575740</millis>
+  <nanos>429900</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:36.230976Z</date>
+  <millis>1650003576230</millis>
+  <nanos>976000</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:36.525646900Z</date>
+  <millis>1650003576525</millis>
+  <nanos>646900</nanos>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Could not find any serial port. Please, connect device and ReScan</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:36.527889Z</date>
+  <millis>1650003576527</millis>
+  <nanos>889000</nanos>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:55.072594200Z</date>
+  <millis>1650003595072</millis>
+  <nanos>594200</nanos>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2022-04-15T06:19:55.074608200Z</date>
+  <millis>1650003595074</millis>
+  <nanos>608200</nanos>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>File close: Success.</message>
+</record>
+</log>
